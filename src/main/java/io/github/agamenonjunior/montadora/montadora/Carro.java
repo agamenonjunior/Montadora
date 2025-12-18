@@ -50,7 +50,7 @@ public class Carro {
         if(chave.getMontadora() != this.montadora){
             return new CarroStatus("Não é possível iniciar o carro com esta chave !");
         }
-        return new CarroStatus("Carro Ligado. Rodando com o motor" + motor);
+        return new CarroStatus("Carro Ligado. Rodando com o motor " + motor);
 
     }
 
